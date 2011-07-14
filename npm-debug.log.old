@@ -1,0 +1,78 @@
+info it worked if it ends with ok
+verbose cli [ '/home/cloud9/c9/support/node-c9-builds-v4/node-c9-sunos',
+verbose cli   '/home/ide_vackraord/workspaces/npm/bin/npm.js',
+verbose cli   'install',
+verbose cli   '-g',
+verbose cli   'mustache' ]
+info using npm@1.0.1rc6
+info using node@v0.4.5
+verbose config file /home/cloud9/.npmrc
+verbose config file /home/cloud9/c9/support/etc/npmrc
+verbose mkdir done: /home/ide_vackraord/workspaces/npm_global/lib
+info into /home/ide_vackraord/workspaces/npm_global/lib [ 'mustache' ]
+verbose cache add [ 'mustache', null ]
+info addNamed [ 'mustache', '' ]
+verbose addNamed [ null, '' ]
+verbose GET mustache
+verbose raw, before any munging mustache
+verbose url resolving [ 'http://registry.npmjs.org/', './mustache' ]
+verbose url resolved http://registry.npmjs.org/mustache
+verbose url parsed { protocol: 'http:',
+verbose url parsed   slashes: true,
+verbose url parsed   host: 'registry.npmjs.org',
+verbose url parsed   hostname: 'registry.npmjs.org',
+verbose url parsed   pathname: '/mustache',
+verbose url parsed   href: 'http://registry.npmjs.org/mustache' }
+verbose response http://registry.npmjs.org/mustache
+silly chunk {"_id":"mustache","_rev":"6-7f8458f2b52de5b37004b105c0f39e62","name":"mustache","description":"{{ mustache }} in JavaScript — Logic-less templates.","dist-tags":{"latest":"0.3.1-dev"},"versions":{"0.3.1-dev":{"name":"mustache","author":{"name":"http://mustache.github.com/"},"description":"{{ mustache }} in JavaScript — Logic-less templates.","keywords":["template"],"version":"0.3.1-dev","main":"./mustache","_id":"mustache@0.3.1-dev","engines":{"node":"*"},"_nodeSupported":true,"_npmVersion":"0.2.7-2","_nodeVersion":"v0.3.1-pre","dist":{"tarball":"http://registry.npmjs.org/mustache/-/mustache-0.3.1-dev.tgz"},"directories":{}}},"maintainers":[{"name":"nathan","email":"nrstott@gmail.com"}],"author":{"name":"http://mustache.github.com/"}}
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.1.0 (Erlang OTP/R14B03)',
+silly get cb     etag: '"2IVX9I0UG50F6JWA4O6EVBB4K"',
+silly get cb     date: 'Sat, 09 Jul 2011 06:38:08 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '748' } ]
+verbose mkdir done: /home/ide_vackraord/workspaces/npm_cache/mustache
+verbose GET mustache/0.3.1-dev
+verbose raw, before any munging mustache/0.3.1-dev
+verbose url resolving [ 'http://registry.npmjs.org/',
+verbose url resolving   './mustache/0.3.1-dev' ]
+verbose url resolved http://registry.npmjs.org/mustache/0.3.1-dev
+verbose url parsed { protocol: 'http:',
+verbose url parsed   slashes: true,
+verbose url parsed   host: 'registry.npmjs.org',
+verbose url parsed   hostname: 'registry.npmjs.org',
+verbose url parsed   pathname: '/mustache/0.3.1-dev',
+verbose url parsed   href: 'http://registry.npmjs.org/mustache/0.3.1-dev' }
+verbose response http://registry.npmjs.org/mustache/0.3.1-dev
+silly chunk {"name":"mustache","author":{"name":"http://mustache.github.com/"},"description":"{{ mustache }} in JavaScript — Logic-less templates.","keywords":["template"],"version":"0.3.1-dev","main":"./mustache","_id":"mustache@0.3.1-dev","engines":{"node":"*"},"_nodeSupported":true,"_npmVersion":"0.2.7-2","_nodeVersion":"v0.3.1-pre","dist":{"tarball":"http://registry.npmjs.org/mustache/-/mustache-0.3.1-dev.tgz"},"directories":{}}
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.1.0 (Erlang OTP/R14B03)',
+silly get cb     etag: '"2IVX9I0UG50F6JWA4O6EVBB4K"',
+silly get cb     date: 'Sat, 09 Jul 2011 06:38:08 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '426' } ]
+verbose mkdir done: /home/ide_vackraord/workspaces/npm_cache/mustache/0.3.1-dev
+verbose bin dist [ '0.4-sunos-5.11',
+verbose bin dist   { tarball: 'http://registry.npmjs.org/mustache/-/mustache-0.3.1-dev.tgz' } ]
+verbose addRemoteTarball [ 'http://registry.npmjs.org/mustache/-/mustache-0.3.1-dev.tgz',
+verbose addRemoteTarball   undefined ]
+verbose mkdir done: /tmp/npm-1310193488154/1310193488154-0.9425210484769195
+info fetch http://registry.npmjs.org/mustache/-/mustache-0.3.1-dev.tgz
+verbose fetch to /tmp/npm-1310193488154/1310193488154-0.9425210484769195/tmp.tgz
+ERR! failed to fetch http://registry.npmjs.org/mustache/-/mustache-0.3.1-dev.tgz
+ERR! { stack: [Getter/Setter],
+ERR!   arguments: undefined,
+ERR!   type: undefined,
+ERR!   message: 'ENOSPC, No space left on device',
+ERR!   errno: 28,
+ERR!   code: 'ENOSPC' }
+ERR! Report this *entire* log at:
+ERR!     <http://github.com/isaacs/npm/issues>
+ERR! or email it to:
+ERR!     <npm-@googlegroups.com>
+ERR! 
+ERR! System SunOS 5.11
+ERR! command "/home/cloud9/c9/support/node-c9-builds-v4/node-c9-sunos" "/home/ide_vackraord/workspaces/npm/bin/npm.js" "install" "-g" "mustache"
+verbose exit [ 28, true ]
